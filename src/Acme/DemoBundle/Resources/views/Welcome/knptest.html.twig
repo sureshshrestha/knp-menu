@@ -1,0 +1,23 @@
+
+
+{% block title %}Symfony - Welcome to knp menu bundle{% endblock %}
+
+{% block content_header '' %}
+
+{% block content %}
+
+   {{ knp_menu_render('AcmeDemoBundle:Builder:mainMenu', {'depth': 2, 'currentAsLink': false}) }} 
+    
+     {% set menuItem = knp_menu_get('AcmeDemoBundle:Builder:mainMenu') %}
+
+    {{ knp_menu_render(menuItem) }}
+
+    {# {% set menuItem = knp_menu_get('AcmeDemoBundle:Builder:mainMenu', ['Home']) %}
+
+    {{ knp_menu_render(['AcmeDemoBundle:Builder:mainMenu', 'Home']) }} #}
+
+    <h1 class="title">Welcome! knp</h1>
+
+    <p>Congratulations! You have successfully installed a new knp menu bundle application.</p>
+
+{% endblock %}
