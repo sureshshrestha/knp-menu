@@ -1,4 +1,4 @@
-This is a ready to use repository for **KnpMenuBundle** configured in **symfony2.5.1**. This is intended for the *Symfony developers* who want to run into the KnpMenuBundle without any burden in configuring. For details on installation please go to the documentation of [KnpMenuBundle](https://github.com/KnpLabs/KnpMenu).
+This is a ready to use repository for **KnpMenuBundle** configured in **symfony2.5.1**. This is intended for the *Symfony developers* who want to run into the KnpMenuBundle without any burden in configuring. If you are looking for installation of the bundle yourself go through the official documentation of [KnpMenuBundle](https://github.com/KnpLabs/KnpMenu).
 
 Follow the following steps:
 
@@ -15,11 +15,11 @@ Follow the following steps:
 
 3. Go to the 'Setting up Permissions' section of the [official symfony setup page](http://symfony.com/doc/current/book/installation.html)
 
-    Choose the suitable method to change the permission of app/cache and app/logs.
+    Choose the suitable method to change the permission of *app/cache* and *app/logs*.
 
-4. Make a copy of parameters.yml.dist and rename it to paramters.yml.
+4. Make a copy of *parameters.yml.dist* and rename it to *paramters.yml*.
 
-5. Config the database parameter in app/config/parameters.yml as
+5. Config the database parameter in *app/config/parameters.yml* as
 
     `database_name: (db_name)`
     
@@ -29,7 +29,7 @@ Follow the following steps:
 
 6. Go to the url: 
 
-    http://localhost/project_name/web/app_dev.php/
+    *http://localhost/project_name/web/app_dev.php/*
     
     (change the above url as per need)
 
