@@ -1,4 +1,4 @@
-This is a ready to use repository for **KnpMenuBundle** configured in **symfony2.5.1**. This is intended for the *Symfony developers* who want to run into the KnpMenuBundle without any burden in configuring. If you are looking for installation of the bundle yourself go through the official documentation of [KnpMenuBundle](https://github.com/KnpLabs/KnpMenu).
+This is configured and tested boilerplate for **KnpMenuBundle** configured in **symfony2.5.1**. This is intended for the *Symfony developers* who want to run into the KnpMenuBundle without any burden in configuring. If you are looking for installation of the bundle yourself go through the official documentation of [KnpMenuBundle](https://github.com/KnpLabs/KnpMenu).
 
 Follow the following steps:
 
